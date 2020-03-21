@@ -7,7 +7,6 @@ import Heading from "../components/landing/Heading"
 import Block from "../components/landing/Block"
 import Feedback from "../components/landing/Feedback"
 import LandingSwiper from "../components/landing/LandingSwiper"
-import BlockSlider from "../components/landing/BlockSlider"
 import {graphql} from 'gatsby'
 import Helmet from "react-helmet"
 
