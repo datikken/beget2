@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Helmet from "react-helmet"
 
-const Landing = () => {
+const Slanding = () => {
   const data = [
     {
       image: "/landing/printerIcon.svg",
@@ -54,4 +54,4 @@ const Landing = () => {
   )
 }
 
-export default Landing
+export default Slanding
