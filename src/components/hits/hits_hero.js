@@ -7,7 +7,6 @@ export default function HitsHero() {
         <>
         <div className="hits_hero">
             <div className="hits_hero-wrap">
-                <img src={'/hits/hits.svg'} alt="Hits"></img>
             </div>
         </div>
 
