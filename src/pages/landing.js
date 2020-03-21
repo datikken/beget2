@@ -1,12 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Lenta from "../components/landing/Lenta"
-import Video from "../components/landing/Video"
-import Heading from "../components/landing/Heading"
-import Block from "../components/landing/Block"
-import Feedback from "../components/landing/Feedback"
-import LandingSwiper from "../components/landing/LandingSwiper"
 import Helmet from "react-helmet"
 
 const Landing = () => {
@@ -53,41 +47,6 @@ const Landing = () => {
         />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js" />
       </Helmet>
-
-      <Lenta />
-      <Video />
-      <Heading />
-
-        <Block 
-          image={data[0].image} 
-          lie={data[0].lie} 
-          truth={data[0].truth} 
-          cartoon={data[0].cartoon}
-          desc={data[0].desc} 
-          footer={data[0].footer} 
-          />
-
-      <Feedback />
-
-       <Block 
-          image={data[1].image} 
-          lie={data[1].lie} 
-          truth={data[1].truth} 
-          cartoon={data[1].cartoon}
-          desc={data[1].desc} 
-          footer={data[1].footer} 
-          />
-          
-      <LandingSwiper />
-
-      <Block 
-          image={data[2].image} 
-          lie={data[2].lie} 
-          truth={data[2].truth} 
-          cartoon={data[2].cartoon}
-          desc={data[2].desc} 
-          footer={data[2].footer} 
-          />
 
 
 
