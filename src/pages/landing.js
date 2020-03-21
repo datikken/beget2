@@ -89,9 +89,6 @@ const Landing = ({data: {allContentfulSrokSluzbi}}) => {
           desc={data[2].desc}
           footer={data[2].footer}
           />
-
-
-
     </Layout>
   )
 }
