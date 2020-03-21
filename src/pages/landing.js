@@ -7,10 +7,9 @@ import Heading from "../components/landing/Heading"
 import Block from "../components/landing/Block"
 import Feedback from "../components/landing/Feedback"
 import LandingSwiper from "../components/landing/LandingSwiper"
-import {graphql} from 'gatsby'
 import Helmet from "react-helmet"
 
-const Landing = ({data: {allContentfulSrokSluzbi}}) => {
+const Landing = () => {
   const data = [
     {
       image: "/landing/printerIcon.svg",
@@ -95,22 +94,5 @@ const Landing = ({data: {allContentfulSrokSluzbi}}) => {
     </Layout>
   )
 }
-
-export const query = graphql`
-    {
-        allContentfulSrokSluzbi {
-            edges {
-                node {
-                    image {
-                        file {
-                            url
-                        }
-                    }
-                    price
-                }
-            }
-        }
-    }
-`;
 
 export default Landing
