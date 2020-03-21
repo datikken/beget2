@@ -51,6 +51,7 @@ const Header = () => (
                     <div className="header_wrapper-item_contacts-icon">
                         <img className="header_wrapper-item_contacts-icon-item" src={'/header/contact.svg'} alt="Logo"/>
                     </div>
+                    <span className="header_wrapper-item_contacts-tel">8 800 555 66 33</span>
                     <div className="header_wrapper-item_contacts-email">kakayatopochta@gmail.com</div>
                 </div>
             </div>
