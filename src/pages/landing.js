@@ -7,6 +7,7 @@ import Heading from "../components/landing/Heading"
 import Block from "../components/landing/Block"
 import Feedback from "../components/landing/Feedback"
 import LandingSwiper from "../components/landing/LandingSwiper"
+import BlockSlider from "../components/landing/BlockSlider"
 import {graphql} from 'gatsby'
 import Helmet from "react-helmet"
 
@@ -89,6 +90,15 @@ const Landing = ({data: {allContentfulSrokSluzbi}}) => {
           desc={data[2].desc}
           footer={data[2].footer}
           />
+
+      <BlockSlider
+        image={data[3].image}
+        truth={data[3].truth}
+        desc={data[3].desc}
+        footer={data[3].footer}
+        data={allContentfulSrokSluzbi.edges}
+      />
+
     </Layout>
   )
 }
